@@ -1,0 +1,17 @@
+<EntityMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tacticalMapMainBrush>
+    <id>bust_awd2</id>
+    <imgWidth>88</imgWidth>
+    <imgHeight>74</imgHeight>
+    <img>entity\bodies\bust_awd2</img>
+    <left>-43</left>
+    <right>45</right>
+    <top>-52</top>
+    <bottom>22</bottom>
+  </tacticalMapMainBrush>
+  <tacticalMapDeadBrush>
+    <imgWidth>0</imgWidth>
+    <imgHeight>0</imgHeight>
+  </tacticalMapDeadBrush>
+  <uiPath>ui</uiPath>
+</EntityMetadata>

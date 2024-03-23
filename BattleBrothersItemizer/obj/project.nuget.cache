@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "C+hq/CHuz/7CUrmKhB5bK0Lg6GLwIqlv82YLNUrQEuVcelY3OA5CKtghgHhE1CP4bVlZIbV13fBFofSHqJo+nw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\utente\\source\\repos\\BattleBrothersItemizer\\BattleBrothersItemizer\\BattleBrothersItemizer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\utente\\.nuget\\packages\\magick.net-q16-anycpu\\13.6.0\\magick.net-q16-anycpu.13.6.0.nupkg.sha512",
+    "C:\\Users\\utente\\.nuget\\packages\\magick.net.core\\13.6.0\\magick.net.core.13.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
