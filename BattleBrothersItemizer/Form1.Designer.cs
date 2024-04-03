@@ -31,7 +31,7 @@
             this.newButton = new System.Windows.Forms.Button();
             this.exportButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.tacticalMapMainSpriteId = new System.Windows.Forms.TextBox();
+            this.tacticalMapMainBrushId = new System.Windows.Forms.TextBox();
             this.inventorySpriteBrowse = new System.Windows.Forms.Button();
             this.inventoryImagePath = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,7 +42,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.entityName = new System.Windows.Forms.TextBox();
             this.restorePanel = new System.Windows.Forms.Panel();
-            this.tacticalMapDamagedSpriteId = new System.Windows.Forms.TextBox();
+            this.tacticalMapDamagedBrushId = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.restoreCheckbox = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -79,17 +79,17 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(4, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 15);
+            this.label1.Size = new System.Drawing.Size(150, 15);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Tactical map main sprite ID";
+            this.label1.Text = "Tactical map main brush ID";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // tacticalMapMainSpriteId
+            // tacticalMapMainBrushId
             // 
-            this.tacticalMapMainSpriteId.Location = new System.Drawing.Point(4, 69);
-            this.tacticalMapMainSpriteId.Name = "tacticalMapMainSpriteId";
-            this.tacticalMapMainSpriteId.Size = new System.Drawing.Size(200, 23);
-            this.tacticalMapMainSpriteId.TabIndex = 3;
+            this.tacticalMapMainBrushId.Location = new System.Drawing.Point(4, 69);
+            this.tacticalMapMainBrushId.Name = "tacticalMapMainBrushId";
+            this.tacticalMapMainBrushId.Size = new System.Drawing.Size(200, 23);
+            this.tacticalMapMainBrushId.TabIndex = 3;
             // 
             // inventorySpriteBrowse
             // 
@@ -181,11 +181,11 @@
             // restorePanel
             // 
             this.restorePanel.Controls.Add(this.inventoryImagePath);
-            this.restorePanel.Controls.Add(this.tacticalMapDamagedSpriteId);
+            this.restorePanel.Controls.Add(this.tacticalMapDamagedBrushId);
             this.restorePanel.Controls.Add(this.inventorySpriteBrowse);
             this.restorePanel.Controls.Add(this.label5);
             this.restorePanel.Controls.Add(this.label2);
-            this.restorePanel.Controls.Add(this.tacticalMapMainSpriteId);
+            this.restorePanel.Controls.Add(this.tacticalMapMainBrushId);
             this.restorePanel.Controls.Add(this.label1);
             this.restorePanel.Enabled = false;
             this.restorePanel.Location = new System.Drawing.Point(-1, 299);
@@ -193,21 +193,21 @@
             this.restorePanel.Size = new System.Drawing.Size(456, 200);
             this.restorePanel.TabIndex = 10;
             // 
-            // tacticalMapDamagedSpriteId
+            // tacticalMapDamagedBrushId
             // 
-            this.tacticalMapDamagedSpriteId.Location = new System.Drawing.Point(4, 113);
-            this.tacticalMapDamagedSpriteId.Name = "tacticalMapDamagedSpriteId";
-            this.tacticalMapDamagedSpriteId.Size = new System.Drawing.Size(200, 23);
-            this.tacticalMapDamagedSpriteId.TabIndex = 6;
+            this.tacticalMapDamagedBrushId.Location = new System.Drawing.Point(4, 113);
+            this.tacticalMapDamagedBrushId.Name = "tacticalMapDamagedBrushId";
+            this.tacticalMapDamagedBrushId.Size = new System.Drawing.Size(200, 23);
+            this.tacticalMapDamagedBrushId.TabIndex = 6;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(5, 95);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(172, 15);
+            this.label5.Size = new System.Drawing.Size(173, 15);
             this.label5.TabIndex = 5;
-            this.label5.Text = "Tactical map damaged sprite ID";
+            this.label5.Text = "Tactical map damaged brush ID";
             // 
             // restoreCheckbox
             // 
@@ -279,7 +279,7 @@
         private Button newButton;
         private Button exportButton;
         private Label label1;
-        private TextBox tacticalMapMainSpriteId;
+        private TextBox tacticalMapMainBrushId;
         private Button inventorySpriteBrowse;
         private TextBox inventoryImagePath;
         private Label label2;
@@ -296,6 +296,6 @@
         private TextBox bbrusherProjectPath;
         private Label label4;
         private Label label5;
-        private TextBox tacticalMapDamagedSpriteId;
+        private TextBox tacticalMapDamagedBrushId;
     }
 }

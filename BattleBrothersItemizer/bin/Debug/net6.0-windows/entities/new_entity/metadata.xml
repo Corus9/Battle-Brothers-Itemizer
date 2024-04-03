@@ -1,37 +1,35 @@
 <EntityMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <tacticalMapMainBrush>
     <id>bust_awd2</id>
-    <spriteWidth>104</spriteWidth>
-    <spriteHeight>142</spriteHeight>
-    <imgWidth>96</imgWidth>
-    <imgHeight>62</imgHeight>
+    <imgWidth>88</imgWidth>
+    <imgHeight>72</imgHeight>
     <img>entity\bodies\bust_awd2</img>
-    <left>-46</left>
-    <right>50</right>
-    <top>-51</top>
-    <bottom>11</bottom>
+    <left>-42</left>
+    <right>46</right>
+    <top>-50</top>
+    <bottom>22</bottom>
   </tacticalMapMainBrush>
   <tacticalMapDamagedBrush>
     <id>bust_awd2_damaged</id>
-    <spriteWidth>104</spriteWidth>
-    <spriteHeight>142</spriteHeight>
-    <imgWidth>96</imgWidth>
-    <imgHeight>62</imgHeight>
+    <imgWidth>88</imgWidth>
+    <imgHeight>72</imgHeight>
     <img>entity\bodies\bust_awd2_damaged</img>
-    <left>-46</left>
-    <right>50</right>
-    <top>-51</top>
-    <bottom>11</bottom>
+    <left>-42</left>
+    <right>46</right>
+    <top>-50</top>
+    <bottom>22</bottom>
   </tacticalMapDamagedBrush>
   <tacticalMapDeadBrush>
     <id>bust_awd2_dead</id>
     <offsetX>6</offsetX>
     <offsetY>10</offsetY>
-    <spriteWidth>131</spriteWidth>
-    <spriteHeight>125</spriteHeight>
-    <imgWidth>116</imgWidth>
-    <imgHeight>108</imgHeight>
+    <imgWidth>191</imgWidth>
+    <imgHeight>185</imgHeight>
     <img>entity\bodies\bust_awd2_dead</img>
+    <left>-59</left>
+    <right>57</right>
+    <top>-53</top>
+    <bottom>49</bottom>
   </tacticalMapDeadBrush>
   <uiPath>ui</uiPath>
 </EntityMetadata>

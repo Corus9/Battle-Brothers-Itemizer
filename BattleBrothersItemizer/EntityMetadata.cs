@@ -16,6 +16,7 @@ namespace BattleBrothersItemizer
     public class EntityMetadata
     {
         public Brush tacticalMapMainBrush = new Brush();
+        public Brush tacticalMapDamagedBrush = new Brush();
         public Brush tacticalMapDeadBrush = new Brush();
         public string uiPath = "ui";
 
@@ -75,7 +76,7 @@ namespace BattleBrothersItemizer
             public int? bottom;
         }
 
-        public void Write(string path)
+        public void Serialize(string path)
         {
             string xmlString = Utils.SerializeXml(this);
             File.WriteAllText(path + "\\metadata.xml", xmlString);
@@ -83,6 +84,16 @@ namespace BattleBrothersItemizer
             //x.Serialize(new StreamWriter(path + "\\metadata.xml"), this);
             //
             //result = Regex.Replace(result, "\\s+<\\w+ xsi:nil=\"true\" \\/>", string.Empty);
+        }
+        public static EntityMetadata Deserialize(string path)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(EntityMetadata));
+
+            using (Stream reader = new FileStream(path, FileMode.Open))
+            {
+                // Call the Deserialize method to restore the object's state.
+                return (EntityMetadata)serializer.Deserialize(reader);
+            }
         }
     }
 }
